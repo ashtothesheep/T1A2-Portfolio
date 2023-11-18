@@ -28,7 +28,7 @@ header h1 {
     padding: 30px;
     background-color: #5d7cf0;
     margin: 10px;
-    border-radius: 2px;
+    border-radius: 10px;
 
     /*  */
     display: inline-block;
@@ -38,5 +38,31 @@ header h1 {
 }
 section {
     column-count: 2;
-    column-gap: 10%;
+    column-width: 50%;
 }
+
+/* footer stuff */
+.footer{
+    background-color: #F06542;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #FAE0DC;
+    text-align: left;
+    height: 10%;
+}
+
+/* content and nav list */
+.columns {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.columns >article, nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+/
