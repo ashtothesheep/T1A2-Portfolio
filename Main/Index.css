@@ -1,12 +1,42 @@
 body {
-    background-color: #ffeeea;
+    background-color: #FAE0DC;
 }
 
 header {
-    background-color: #4b48d1;
+    /* colours*/
+    background-color: #F06542;
+
+    /* position and shaping */
+    position: relative;
+    top: 10px; left: 10%; right: 10%;
+    width: 60%;
+    height: 20%;
 
 }
+header h1 {
+
+    /* text */
+    display: flex ;
+    justify-content: center;
+}
+
 
 .box {
-    border: 3px solid #4b48d1;
+    
+    /* shaping and colors */
+    border: 20px solid #F06542;
+    padding: 30px;
+    background-color: #5d7cf0;
+    margin: 10px;
+    border-radius: 2px;
+
+    /*  */
+    display: inline-block;
+    
+    text-align: center;
+
+}
+section {
+    column-count: 2;
+    column-gap: 10%;
 }
