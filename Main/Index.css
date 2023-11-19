@@ -89,12 +89,15 @@ section {
         .BlogBlocks {
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: space-evenly;
+            padding-left: 30px;
+            padding-right: 30px;
 
         
         }
         .BlogPost {
             display: flex;
+            justify-content: space-evenly;
             height: 200px;
             width: 200px;
     
@@ -120,7 +123,7 @@ section {
 .columns >article, nav {
     display: flex;
     flex-direction: column;
-    flex-basis: 35%;
+    flex-basis: 50%;
     
 }
 /* positioning of nav links */
