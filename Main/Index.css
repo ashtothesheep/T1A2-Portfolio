@@ -45,7 +45,7 @@ section {
         padding: 30px;
         background-color: #5d7cf0;
         margin: 15px;
-        border-radius: 10px;
+        border-radius: 15px 50px;
 
         height: 60px;
         width: 60px;
@@ -77,6 +77,8 @@ section {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
+
+        
         }
         .BlogPost {
             display: flex;
@@ -86,7 +88,10 @@ section {
         
     }
 
-    
+    img{
+        display: block;
+
+    }
 
 
 
@@ -111,12 +116,12 @@ section {
         align-items: center;
         font-style: italic; 
         font-size: large;
-        line-height: 25px;
+        line-height: 15px;
     }
     
     nav{
         position: relative ;
-        top: 55px;
+        top: 15px;
     }
 /* positioning of codeword content*/
     article{
@@ -124,19 +129,45 @@ section {
         flex-direction: column;
         justify-content: start;
         align-items: center;
+
+        height: 150px;
     }
 @media(min-width:800px){
     .navlinks{
         position: relative;
-        top:120px;
-        line-height: 35px;
+        top:100px;
+        line-height: 20px;
     }
 
 }
 
+/* small word info styling */
+    .codewords{
+        background-color: #F06542;
+        border: 15px solid #FAE0DC;
+        border-radius: 10px 40px 20px;
+        color: #FAE0DC;
+
+    }
+
+
 /* links styling*/
-a{
-    background-image: ;
+.link{
+    background-color: #FAE0DC;
+    padding: 10px;
+    border: 5px solid #5d7cf0;
+    border-radius: 5px 20px 10px;
+    
+
+    text-decoration: none;
+
+    color: #5d7cf0;
+}
+@media (min-width:800px){
+    .link{
+        padding: 25px;
+        border-radius: 5px 30px 15px;
+    }
 }
 
 
