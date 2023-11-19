@@ -21,25 +21,95 @@ header h1 {
 }
 
 
-.box {
-    
-    /* shaping and colors */
-    border: 20px solid #F06542;
-    padding: 30px;
-    background-color: #5d7cf0;
-    margin: 10px;
-    border-radius: 10px;
-
-    /*  */
-    display: inline-block;
-    
-    text-align: center;
-
-}
 section {
     column-count: 2;
     column-width: 50%;
 }
+    /* blogposts is flex item */
+    .BlogPost {
+        
+        /* shaping and colors */
+        border: 20px solid #F06542;
+        padding: 30px;
+        background-color: #5d7cf0;
+        margin: 15px;
+        border-radius: 10px;
+
+        height: 60px;
+        width: 60px;
+        
+
+        /* flexbox items */
+        display: flex;
+        order: 4;
+        flex-grow: 4;
+        flex-basis: auto;
+        align-items: center;
+
+
+    }
+    /* blogblocks is flex container */
+    .BlogBlocks {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+            
+        }
+    @media (min-width: 800px){
+        .BlogBlocks {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .BlogPost {
+            display: flex;
+            height: 100px;
+    
+        }
+    }
+
+    
+
+
+
+
+/* content and nav list, flex container */
+.columns {
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+/* flex items */
+.columns >article, nav {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    
+}
+/* positioning of nav links */
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    
+    nav{
+        position: relative ;
+        top: 200px;
+    }
+/* positioning of */
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 /* footer stuff */
 .footer{
@@ -52,17 +122,3 @@ section {
     text-align: left;
     height: 10%;
 }
-
-/* content and nav list */
-.columns {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.columns >article, nav {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 50%;
-}
-/
