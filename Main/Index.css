@@ -48,7 +48,7 @@ header {
 }
 section {
     column-count: 2;
-    column-width: 50%;
+    column-width: 100%;
 }
     /* blogposts is flex item */
     .BlogPost {
@@ -57,7 +57,7 @@ section {
         border: 15px solid #F06542;
         padding: 5px;
         background-color: #5d7cf0;
-        margin: 15px;
+        margin: 5px;
         border-radius: 15px 50px;
 
         height: 150px;
@@ -85,13 +85,20 @@ section {
 
             
         }
+        /* change into row view */
     @media (min-width: 800px){
+        section{
+            columns: 1;
+        }
+
         .BlogBlocks {
+            display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding-inline-end: 30px;
+            padding-inline-start: 30px;
+            padding-bottom: 20px;
 
         
         }
@@ -100,6 +107,8 @@ section {
             justify-content: space-evenly;
             height: 200px;
             width: 200px;
+
+            
     
         }
         
@@ -162,6 +171,7 @@ section {
         
     }
 
+
 }
 
 /* small word info styling */
@@ -171,6 +181,13 @@ section {
         border-radius: 10px 40px 20px;
         color: #FAE0DC;
 
+    }
+
+    @media(min-width:800px){
+        .codewords{
+            margin-left: 50px;
+
+        }
     }
 
 
@@ -187,7 +204,9 @@ section {
     color: #5d7cf0;
 }
 .link:hover{
-    color: #F06542;
+    color: #FAE0DC;
+    background-color: #5d7cf0;
+    border: 5px solid #F06542;
 }
 
 @media (min-width:800px){
