@@ -83,8 +83,18 @@ section {
         justify-content: center;
         align-items: center;
 
-            
         }
+
+        .BlogPost{
+            margin: 10px;
+            transition: opacity 0.3s ease;
+
+        }
+        
+        .BlogPost:hover{
+            opacity: 0.5;
+        }
+
         /* change into row view */
     @media (min-width: 800px){
         section{

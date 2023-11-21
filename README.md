@@ -7,5 +7,3 @@ First portfolio website with components, css stylesheet, responsive layout using
 Index.html file has all the website components without styling
 Index.css contains all the styling components with commentary where needed.
 
-
-Use chatgpt to make php file following tutorials for contact page

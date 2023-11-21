@@ -15,36 +15,6 @@ body {
 
 }
 
-/* container styling */
-.main{
-    /* styling */
-    background-color: #FAE0DC;
-    padding:20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 3px solid #5d7cf0;
-    border-radius: 100px;
-
-    color: #F06542;
-    
-/* flex info */
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-
-    /* font styling */
-    font-family: 'Poppins', sans-serif;
-    
-
-}
-        @media(min-width:800px){
-            .main{
-                margin-left: 100px;
-                margin-right: 100px;
-               
-            }
-        }
 /* header info and styling */
 header {
     /* colours*/
@@ -134,83 +104,11 @@ header {
                         }
 
                     }
-.profilepic{
-    /* responsive image stuff */
-    border-radius: 50%;
-   
-
-    /* picture styling */
-    border: 5px outset #5d7cf0;
-
-    /* positioning */
-    width: 90%;
 
 
-}
-                @media (min-width:800px){
-                    .profilepic{
-                        max-width: 300px;
-                    }
-                }
 
-.entry{
-    font-size:small;
 
-    width: 100%;
-    height: 100%;
-    text-align: center;
-
-}
-        @media(min-width:800px){
-            .entry{
-                font-size: small;
-                width: 100%;
-                height: 100%;
-                text-align: center;
-            }
-            .content{
-                padding-left: 20%;
-                padding-right: 20%;
-            }
-        }
-/* Style buttons */
-.Resume {
-    background-color: #5d7cf0;
-    border: 3px solid #F06542;
-    border-radius: 15px 50px;
-    color: #FAE0DC;
-    padding: 12px 30px;
-    cursor: pointer;
-    font-size: 20px;
-    align-self: center;
-    text-align: center;
-    text-decoration: none;
-    
-  }
-  
-  /* change of background on hover */
-  .Resume:hover {
-    background-color: #F06542;
-    border: #5d7cf0;
-  }
-
-  /* positioning */
-  .button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-/* footer stuff */
-
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #FAE0DC;
-    
-
-}
+                    
 footer{
     display: block;
     text-align: center;
