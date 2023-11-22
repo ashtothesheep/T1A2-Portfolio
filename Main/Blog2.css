@@ -221,45 +221,6 @@ article{
                 color: #F06542;
             }
             
-            
-  /* previous and next buttons */
-  .prevnext{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-
-  }
-  .previous {
-    background-color: #5d7cf0;
-    padding: 10px;
-    border: 3px solid #F06542;
-    border-radius: 20px;
-    color: #FAE0DC;
-    font-family: 'Poppins', sans-serif;
-    font-size: small;
-    text-align: center;
-    width: 100px;
-  }
-  .next {
-    background-color: #5d7cf0;
-    color: #FAE0DC;
-    font-family: 'Poppins', sans-serif;
-    padding: 10px;
-    border: 3px solid #F06542;
-    border-radius: 20px;
-    color: #FAE0DC;
-    font-size: small;
-    text-align: center;
-    width: 100px;
-    
-
-  }
-
-
-/*footer details  */
 footer{
             display: block;
             text-align: center;
