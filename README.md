@@ -1,22 +1,20 @@
-#CoderAcademy Assignment T1A2 - Aisyah Sheppard
+# CoderAcademy Assignment T1A2 - Aisyah Sheppard
 ---
-##Description
+## Description
 
 First website build that incorporates everything I've learned during my first 3 weeks with CoderAcademy. 
 I have opted to just include a lot more hobby related stuff instead of using it like a proper Portfolio because it's my first time in this space.
 
 It contains:
--An about me section
--Portfolio page with various projects
--Blog page with blog posts
--Link to my resume
--A contact me page, that's kinda functional, well the buttons work.
----
-##Target audience
+- An about me section
+- Portfolio page with various projects
+- Blog page with blog posts
+- Link to my resume
+- A contact me page, that's kinda functional, well the buttons work.
 
-CoderAcademy people, for assignment purposes
+
 ---
-##Resources used
+## Resources used
 
 Multiple resources were used for this project. 
 I will list all of the resources used during this project below, with explanations.
@@ -32,13 +30,12 @@ I will list all of the resources used during this project below, with explanatio
 
 Other than the above sites, I also used other tools to help me cover the assignment:
 
--Figma for wireframes
--Draw.io for sitemap
--Netlify for deployment
--GoogleDocs for the slide-deck
+- Figma for wireframes
+- Draw.io for sitemap
+- Netlify for deployment
+- GoogleDocs for the slide-deck
 
-I think those cover the resources I used, hopefully didn't miss anything, but google is a powerful and very useful tool for troubleshooting along the way. 
----
+ ---
 
 
 
