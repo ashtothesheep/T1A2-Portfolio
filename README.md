@@ -1,22 +1,26 @@
-#CoderAcademy Assignment T1A2 - Aisyah Sheppard
+# CoderAcademy Assignment T1A2 - Aisyah Sheppard
+
+1. [Website](https://ashysheppard.netlify.app/)
+2. [Github](https://github.com/ashtothesheep/T1A2-Portfolio)
+3. [Presentation]()
 ---
-##Description
+## Description
 
 First website build that incorporates everything I've learned during my first 3 weeks with CoderAcademy. 
 I have opted to just include a lot more hobby related stuff instead of using it like a proper Portfolio because it's my first time in this space.
 
 It contains:
--An about me section
--Portfolio page with various projects
--Blog page with blog posts
--Link to my resume
--A contact me page, that's kinda functional, well the buttons work.
+- An about me section
+- Portfolio page with various projects
+- Blog page with blog posts
+- Link to my resume
+- A contact me page, that's kinda functional, well the buttons work.
 ---
-##Target audience
+## Target audience
 
 CoderAcademy people, for assignment purposes
 ---
-##Resources used
+## Resources used
 
 Multiple resources were used for this project. 
 I will list all of the resources used during this project below, with explanations.
@@ -35,12 +39,42 @@ Other than the above sites, I also used other tools to help me cover the assignm
 -Figma for wireframes
 -Draw.io for sitemap
 -Netlify for deployment
--GoogleDocs for the slide-deck
-
-I think those cover the resources I used, hopefully didn't miss anything, but google is a powerful and very useful tool for troubleshooting along the way. 
----
+-Pitch.com for slide decks
 
 
+
+## Features:
+
+- Mobile first design that adjusts to the scale of the browser window
+- Animation on the Blog Cards on Home PAge
+- Changing colours animations on hover around links 
+- Downloadable CV in About me and Index page
+- Contact form
+- Easy navigation buttons to cycle through Blog
+- Social media footer with clickable icons
+
+
+
+## Sitemap: 
+
+![Sitemap](/Main/Relevant%20files/Portfolio%20sitemap.drawio%20(1).png)
+
+
+## Screenshots: 
+
+![Website1](/Main/Pictures/Index.png)
+<br>
+
+![Website2](/Main/Pictures/About%20Me-2.png)
+<br>
+
+![Website3](/Main/Pictures/Blogdesktop.png)
+<br>
+
+![Website4](/Main/Pictures/ContactMedesktop.png)
+<br>
+
+![Website5](/Main/Pictures/LauuluShawldesktop.png)
 
 
 
