@@ -9,7 +9,7 @@
 First website build that incorporates everything I've learned during my first 3 weeks with CoderAcademy. 
 I have opted to just include a lot more hobby related stuff instead of using it like a proper Portfolio because it's my first time in this space.
 
-It contains:
+It contains
 - An about me section
 - Portfolio page with various projects
 - Blog page with blog posts
@@ -18,7 +18,6 @@ It contains:
 ---
 ## Target audience
 
-CoderAcademy people, for assignment purposes
 ---
 ## Resources used
 
