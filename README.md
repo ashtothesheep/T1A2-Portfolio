@@ -36,10 +36,10 @@ I will list all of the resources used during this project below, with explanatio
 
 Other than the above sites, I also used other tools to help me cover the assignment:
 
--Figma for wireframes
--Draw.io for sitemap
--Netlify for deployment
--Pitch.com for slide decks
+- Figma for wireframes
+- Draw.io for sitemap
+- Netlify for deployment
+- Pitch.com for slide decks
 
 
 
