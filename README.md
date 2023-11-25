@@ -17,7 +17,7 @@ It contains
 - A contact me page, that's kinda functional, well the buttons work.
 ---
 ## Target audience
-Coder academy people :)
+    Coder academy people :)
 ---
 ## Resources used
 
